@@ -27,6 +27,7 @@
     "ect": "^0.5.9",
     "koa": "^0.19.1",
     "koa-bodyparser": "^1.5.0",
+    "koa-cors": "0.0.16",
     "koa-router": "^4.3.2",
     "koa-static": "^1.4.9",
     "koa-views": "^3.0.0",

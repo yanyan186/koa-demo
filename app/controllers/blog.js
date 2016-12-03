@@ -1,8 +1,10 @@
 var fs = require('fs');
 var moment = require('moment');
+var cors = require('koa-cors');
 var currentDir = process.cwd();
 var blogFile = currentDir + '/data/blog.json';
 
+app.use(cors());
 module.exports = {
     getAuthorInfo: function () {
 
